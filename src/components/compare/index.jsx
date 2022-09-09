@@ -64,7 +64,7 @@ class Compare extends Component {
                                                 </button>
                                                 <div className="img-secton">
                                                     <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${item.id}`}>
-                                                    <img src={item.variants?
+                                                    <img src={process.env.PUBLIC_URL + item.variants?
                                                                 item.variants[0].images
                                                                 :item.pictures[0]} className="img-fluid" alt="" />
                                                     <h5>{item.name}</h5></Link>

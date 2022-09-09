@@ -21,7 +21,7 @@ class ProductMultiSlider extends Component {
                                 <div className="media" key={i}>
                                     <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product.id}`}>
                                         <img className="img-fluid" src={
-                                            product.variants?
+                                            process.env.PUBLIC_URL + product.variants?
                                                 product.variants[0].images
                                                 :product.pictures[0]
                                         } alt="" />

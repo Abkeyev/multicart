@@ -44,7 +44,7 @@ class orderSuccess extends Component {
                                     {items.map((item, index) => {
                                     return <div className="row product-order-detail" key={index}>
                                                 <div className="col-3">
-                                                    <img src={item.variants?
+                                                    <img src={process.env.PUBLIC_URL + item.variants?
                                                         item.variants[0].images
                                                         :item.pictures[0]} alt="" className="img-fluid" />
                                                 </div>

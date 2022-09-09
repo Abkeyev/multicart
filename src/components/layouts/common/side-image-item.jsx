@@ -29,7 +29,7 @@ class SideImageItem extends Component {
                 <div className="media">
                     <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product.id}`} ><img
                         src={`${
-                            product.variants?
+                            process.env.PUBLIC_URL + product.variants?
                                 this.state.image?this.state.image:product.variants[0].images
                             :product.pictures[0]
                         }`}

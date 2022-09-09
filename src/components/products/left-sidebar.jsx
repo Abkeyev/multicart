@@ -114,7 +114,7 @@ class LeftSideBar extends Component {
                                                     ):
                                                     item.pictures.map((vari, index) =>
                                                         <div key={index}>
-                                                            <ImageZoom image={vari} />
+                                                            <ImageZoom image={process.env.PUBLIC_URL + vari} />
                                                         </div>
                                                     )}
                                                 </Slider>

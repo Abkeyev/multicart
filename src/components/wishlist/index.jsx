@@ -41,7 +41,7 @@ class wishList extends Component {
                                             <tr>
                                                 <td>
                                                     <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${item.id}`}>
-                                                        <img src={item.variants?
+                                                        <img src={process.env.PUBLIC_URL + item.variants?
                                                                     item.variants[0].images
                                                                     :item.pictures[0]} alt="" />
                                                     </Link>

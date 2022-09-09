@@ -40,7 +40,7 @@ class Special extends Component {
                                                         <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product[0].id}`} >
                                                             <img
                                                                 className="img-fluid blur-up lazyload"
-                                                                src={product[0].pictures[0]} alt="" />
+                                                                src={process.env.PUBLIC_URL + product[0].pictures[0]} alt="" />
                                                         </Link>
                                                         <div className="media-body align-self-center">
                                                             <div className="rating"><i className="fa fa-star"></i> <i
@@ -62,7 +62,7 @@ class Special extends Component {
                                                         <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product[1].id}`} >
                                                             <img
                                                                 className="img-fluid blur-up lazyload"
-                                                                src={product[1].pictures[0]} alt="" />
+                                                                src={process.env.PUBLIC_URL + product[1].pictures[0]} alt="" />
                                                         </Link>
                                                         <div className="media-body align-self-center">
                                                             <div className="rating"><i className="fa fa-star"></i> <i
@@ -107,7 +107,7 @@ class Special extends Component {
                                                         <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product[3].id}`} >
                                                             <img
                                                                 className="img-fluid blur-up lazyload"
-                                                                src={product[3].pictures[0]} alt="" />
+                                                                src={process.env.PUBLIC_URL + product[3].pictures[0]} alt="" />
                                                         </Link>
                                                         <div className="media-body align-self-center">
                                                             <div className="rating"><i className="fa fa-star"></i> <i
@@ -129,7 +129,7 @@ class Special extends Component {
                                                         <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product[4].id}`} >
                                                             <img
                                                                 className="img-fluid blur-up lazyload"
-                                                                src={product[4].pictures[0]} alt="" />
+                                                                src={process.env.PUBLIC_URL + product[4].pictures[0]} alt="" />
                                                         </Link>
                                                         <div className="media-body align-self-center">
                                                             <div className="rating"><i className="fa fa-star"></i> <i
