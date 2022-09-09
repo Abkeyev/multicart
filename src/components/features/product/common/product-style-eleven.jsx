@@ -32,8 +32,8 @@ class ProductStyleEleven extends Component {
                 <div className="img-wrapper">
                     <div className="front">
                         <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product.id}`} >
-                            <img src={`${
-                                process.env.PUBLIC_URL + product.variants?
+                            <img src={process.env.PUBLIC_URL + `${
+                                product.variants?
                                     this.state.image?this.state.image:product.variants[0].images
                                     :product.pictures[0]
                                 }`}

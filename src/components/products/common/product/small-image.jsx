@@ -32,7 +32,7 @@ class SmallImages extends Component {
                         ):
                             item.pictures.map((vari, index) =>
                                 <div key={index}>
-                                    <img src={`${process.env.PUBLIC_URL + vari}`} key={index} alt=""  className="img-fluid" />
+                                    <img src={process.env.PUBLIC_URL + `${vari}`} key={index} alt=""  className="img-fluid" />
                                 </div>
                             )}
                     </Slider>

@@ -77,8 +77,8 @@ class ProductItem extends Component {
                         </div>
                         <div className="front">
                             <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product.id}`} >
-                                <img src={`${
-                                    process.env.PUBLIC_URL + product.variants?
+                                <img src={process.env.PUBLIC_URL + `${
+                                    product.variants?
                                         this.state.image?this.state.image:product.variants[0].images
                                         :product.pictures[0]
                                     }`}
@@ -123,8 +123,8 @@ class ProductItem extends Component {
                                     <div className="row">
                                         <div className="col-lg-6  col-xs-12">
                                             <div className="quick-view-img">
-                                                <img src={`${
-                                                    process.env.PUBLIC_URL + product.variants?
+                                                <img src={process.env.PUBLIC_URL + `${
+                                                    product.variants?
                                                         this.state.image?this.state.image:product.variants[0].images
                                                         :product.pictures[0]
                                                     }`} alt="" className="img-fluid" />
@@ -194,8 +194,8 @@ class ProductItem extends Component {
                                                 <div className="modal-bg addtocart">
                                                     <div className="media">
                                                         <a href="#">
-                                                            <img src={`${
-                                                                process.env.PUBLIC_URL + product.variants?
+                                                            <img src={process.env.PUBLIC_URL + `${
+                                                                product.variants?
                                                                     this.state.image?this.state.image:product.variants[0].images
                                                                     :product.pictures[0]
                                                                 }`} alt="" className="img-fluid blur-up lazyload pro-img" />
@@ -233,8 +233,8 @@ class ProductItem extends Component {
                                                                     <div className="img-wrapper">
                                                                         <div className="front">
                                                                             <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${item.id}`} >
-                                                                                <img src={`${
-                                                                                    process.env.PUBLIC_URL + item.variants?
+                                                                                <img src={process.env.PUBLIC_URL + `${
+                                                                                    item.variants?
                                                                                         item.variants[0].images
                                                                                         :item.pictures[0]
                                                                                     }`} alt="" className="img-fluid blur-up lazyload mb-1" />

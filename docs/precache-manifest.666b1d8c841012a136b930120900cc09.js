@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "47928d87258c28e9814c",
+    "revision": "74cca234de8f5a53c30c",
     "url": "/multicart/static/css/main.7922a166.chunk.css"
   },
   {
-    "revision": "47928d87258c28e9814c",
-    "url": "/multicart/static/js/main.47928d87.chunk.js"
+    "revision": "74cca234de8f5a53c30c",
+    "url": "/multicart/static/js/main.74cca234.chunk.js"
   },
   {
     "revision": "136aa145fc67bd935157",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/multicart/static/media/18.4e59f7c5.jpg"
   },
   {
-    "revision": "3ebba7efd89c22ee3da3d019eedf27fb",
+    "revision": "5a5f8c84c615e949bb3ec58ef0b2b62c",
     "url": "/multicart/index.html"
   }
 ];

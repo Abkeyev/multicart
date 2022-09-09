@@ -37,8 +37,8 @@ class ProductStyleTwo extends Component {
                     </div>
                     <div className="front">
                         <Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/${product.id}`} ><img
-                            src={`${
-                                process.env.PUBLIC_URL + product.variants?
+                            src={process.env.PUBLIC_URL + `${
+                                product.variants?
                                     this.state.image?this.state.image:product.variants[0].images
                                     :product.pictures[0]
                                 }`}
